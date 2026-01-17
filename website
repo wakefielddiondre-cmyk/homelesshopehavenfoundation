@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homeless Hope Haven Foundation | 501(c)(3)</title>
+
+  <meta name="description" content="Homeless Hope Haven Foundation is a 501(c)(3) nonprofit providing shelter, resources, and pathways to stability for individuals experiencing homelessness in Iowa." />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- HEADER -->
+  <header class="bg-blue-900 text-white">
+    <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Homeless Hope Haven Foundation</h1>
+      <nav class="space-x-6 text-sm">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#programs" class="hover:underline">Programs</a>
+        <a href="#impact" class="hover:underline">Impact</a>
+        <a href="#volunteer" class="hover:underline">Volunteer</a>
+        <a href="#donate" class="hover:underline">Donate</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="bg-white">
+    <div class="max-w-7xl mx-auto px-6 py-20 text-center">
+      <h2 class="text-4xl font-extrabold mb-6">Restoring Hope. Rebuilding Lives.</h2>
+      <p class="text-lg max-w-3xl mx-auto mb-8">
+        Homeless Hope Haven Foundation is a community-driven, faith-rooted 501(c)(3)
+        nonprofit dedicated to helping individuals and families transition from homelessness
+        to stability through compassion, resources, and empowerment.
+      </p>
+      <div class="flex justify-center gap-4">
+        <a href="#donate" class="bg-blue-900 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-800">
+          Donate Now
+        </a>
+        <a href="#volunteer" class="border border-blue-900 text-blue-900 px-8 py-3 rounded-xl font-semibold hover:bg-blue-50">
+          Volunteer
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-6">About Us</h3>
+      <p class="text-lg mb-4">
+        Homeless Hope Haven Foundation was founded to address homelessness with dignity,
+        integrity, and practical solutions.
+      </p>
+      <p class="text-lg">
+        We believe homelessness is not a choice — and with the right support,
+        every person can rebuild their life.
+      </p>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section id="programs" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-10">Our Programs</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-gray-50 p-6 rounded-2xl shadow">
+          <h4 class="text-xl font-semibold mb-3">Emergency Outreach</h4>
+          <p>Food, clothing, hygiene kits, and immediate crisis assistance.</p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-2xl shadow">
+          <h4 class="text-xl font-semibold mb-3">Shelter & Housing Navigation</h4>
+          <p>Referrals to shelters and support transitioning into stable housing.</p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-2xl shadow">
+          <h4 class="text-xl font-semibold mb-3">Life Skills & Stability</h4>
+          <p>Job readiness, mentorship, recovery referrals, and case management.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT -->
+  <section id="impact" class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-6">Our Impact</h3>
+      <ul class="list-disc list-inside text-lg space-y-2">
+        <li>Providing essential supplies to individuals experiencing homelessness</li>
+        <li>Connecting people to housing and employment resources</li>
+        <li>Strengthening Iowa communities through service and compassion</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- VOLUNTEER -->
+  <section id="volunteer" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-6">Volunteer With Us</h3>
+      <form class="grid gap-4">
+        <input type="text" placeholder="Full Name" class="p-3 border rounded-xl" />
+        <input type="email" placeholder="Email Address" class="p-3 border rounded-xl" />
+        <textarea placeholder="How would you like to help?" class="p-3 border rounded-xl"></textarea>
+        <button class="bg-blue-900 text-white py-3 rounded-xl font-semibold hover:bg-blue-800">
+          Submit
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- DONATE -->
+  <section id="donate" class="py-20 bg-blue-900 text-white">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6">Support Our Mission</h3>
+      <p class="text-lg mb-6">
+        Homeless Hope Haven Foundation is a registered 501(c)(3).
+        All donations are tax-deductible as allowed by law.
+      </p>
+      <a href="#" class="bg-white text-blue-900 px-8 py-3 rounded-xl font-semibold">
+        Donate Now
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-6">Contact Us</h3>
+      <p>Email: info@homelesshopehaven.org</p>
+      <p>Serving Iowa & surrounding communities</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-300 text-center text-sm py-6">
+    © 2026 Homeless Hope Haven Foundation | 501(c)(3) Nonprofit Organization
+  </footer>
+
+</body>
+</html>
